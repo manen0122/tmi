@@ -35,7 +35,7 @@ class AutomateClassCard:
 
     @staticmethod
     def driver_setup():
-        chrome_path = "C:/Users/jhunyeom/Desktop/coding/webdrivers/chromedriver.exe"
+        chrome_path = "(file absolute path)"
         driver = webdriver.Chrome(chrome_path)
         return driver
 
